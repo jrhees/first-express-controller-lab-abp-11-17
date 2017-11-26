@@ -9,7 +9,7 @@ SiteController.About = function(req, resp) {
 }
 
 SiteController.Contact = function(req, resp) {
-  resp.render("site/about")
+  resp.render("site/contact")
 }
 
 module.exports = SiteController;
